@@ -16,3 +16,6 @@ before_script:
 
 script:
   - go test -v ./...
+
+services:
+  - redis-server
